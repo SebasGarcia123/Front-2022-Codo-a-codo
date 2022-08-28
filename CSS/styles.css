@@ -1,0 +1,45 @@
+/* Esto es un comentario */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+h1 {
+    color : blueviolet;
+}
+h2 {
+    font-size: 45px;
+}
+p {
+    color :rgb(100, 53, 0);
+/* Selector por ID */
+}
+#parrafoazul {
+    color : blue;
+}
+/* Selector por clase*/
+.claseParrafoVerde {
+    color : green;
+}
+.caja {
+    background-color: aqua;
+    height : 100px;
+    font-size: 16px;
+}
+
+.caja {
+    color:black;
+}
+
+.textoItalic {
+    font-style: italic;
+}
+
+.textoBold {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+/* fuente externa */
+
+/*Selector global (para cambiar toda la fuente) */
+/*
+* {
+    font-family: 'Roboto', sans-serif;
+}
+*/
