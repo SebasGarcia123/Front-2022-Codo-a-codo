@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color:red; /*para darle el color de letra al link*/
+            text-decoration: none;/* para sacarle el subrayado*/
+        }
+        ul{
+          list-style: none; /* para sacarle el puntito*/
+        }
+        /* Definir estilo por herencia */
+        ul li a{
+            color :green;
+        }
+        /* Selector de atributos*/
+        [href]{
+            background-color: rgb(223, 226, 43);
+            text-decoration: line-through;/*texto tachado*/
+        }
+        /* Igual a */
+        [id = "Galería"]{
+            background-color: red;
+        }
+        /* Que empiece con*/
+
+        [id^="Re"]{
+            background-color: coral;
+        }
+
+        /* Que contenga algo */
+        [id*="ale"]{
+            font-size: 25px;
+            color: blue;
+            padding: 15px;
+        }
+
+        /*Que termine con algo */
+        [id$="to"]{
+                color: brown;
+        }
+
+        [href $="3"]{
+            text-decoration: double;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <heather>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="Link1">Link1</a>
+                        </li>
+                        <li>
+                            <a href="Link2">Link2</a>
+                        </li>
+                        <li>
+                            <a href="Link3">Link3</a>
+                        </li>
+                    </ul>
+                </nav>
+            </heather>
+        </section>
+        <section>
+            <p style="color:blueviolet">Parrafo</p>
+        </section>
+        <section>
+            <fieldset>
+                <legend> Oficiales</legend>
+                <form method="post">
+                    <input type="file" name="archivo">
+                    <button>Enviar</button>
+                </form>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illo beatae illum qui placeat eveniet repellat voluptatem nostrum? Eligendi quam fuga assumenda perspiciatis ullam delectus incidunt maiores provident error reprehenderit?</p>
+            </fieldset>
+        </section>
+        <section id="Galería">
+            <h2>Galería</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+         </section>
+         <section id="Contacto">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+         </section>
+         <section id="Regalería">
+            <h2>Regalería</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur consequuntur officia quas omnis! Eum explicabo, distinctio cumque quod molestias similique praesentium saepe placeat, amet enim nisi accusamus rerum tenetur!</p>
+         </section>
+   
+    </main>
+    
+</body>
+</html>
