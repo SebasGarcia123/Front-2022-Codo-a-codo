@@ -1,5 +1,6 @@
 /* Esto es un comentario */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 h1 {
     color : blueviolet;
 }
@@ -8,8 +9,9 @@ h2 {
 }
 p {
     color :rgb(100, 53, 0);
-/* Selector por ID */
 }
+/* Selector por ID */
+
 #parrafoazul {
     color : blue;
 }
@@ -33,7 +35,7 @@ p {
 
 .textoBold {
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
 }
 /* fuente externa */
 
