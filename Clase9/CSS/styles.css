@@ -1,0 +1,36 @@
+/*Agrego en la primera linea las fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+/*Todo el sitio usa la fuente*/
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{   
+    background-color: beige;
+}
+.menu-container{
+    list-style-type: none;
+    background-color: black;
+    
+}
+.menu-container li{
+    display: inline-block;
+    margin: 5px;
+    .menu-container li a:hover{
+        color: blueviolet;
+    }
+    .active{
+        font-size: 1.2em;
+        color: chocolate;
+    }
+}
+.menu-container li a{
+    text-decoration: none;
+    display: block;
+    height: 20px;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    color: white;
+    
+}
