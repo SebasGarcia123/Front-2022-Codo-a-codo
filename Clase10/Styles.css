@@ -1,0 +1,75 @@
+div.container {
+    border: 1px solid black;
+}
+.item {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid yellow;
+    background-color: aqua;
+}
+/*flexbox*/
+.container-flex {
+    border:1px solid red;
+    display: flex;
+    background-color: beige;
+    height: 400px;
+    align-items:flex-start;
+    /*justify-content: end;Alinea los elementos a la derecha*/
+    /*justify-content: start;Alinea los elementos a la izquierda*/
+    /*justify-content: flex-start;Alinea los elementos al centro*/
+    justify-content: space-around;/*Alinea los elementos al centro*/
+    /*justify-content: space-evenly;Alinea los elementos con igual cantidad de espacios*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-item {
+    width: 100px;
+    height: 50px;
+    border: 2px solid yellow;
+    background-color: aqua;
+}
+/* media quary*/
+@media screen and (max-width: 600px) {
+    .container-flex{
+        flex-direction: column;
+        background-color: violet;
+    }
+}
+/*Estilos para las sections*/
+section {
+    height: 650px;
+    border: 1px solid blue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section img {
+    width: 50%;
+    margin: 15px;
+}
+/*main section:first-child {
+    background-color: red;
+}
+
+main section:last-child {
+    background-color: blue;
+}
+
+main section:nth-child(2){
+    background-color: yellow;
+}*/
+section:nth-child(odd){ /*odd significa par*/
+   background-color: yellow;
+}
+section:nth-child(even){ /*odd significa par*/
+    background-color: blue;
+ }
+
+section :first-child{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);/*color copiado de web gradients*/
+}
+html {
+    scroll-behavior: smooth; /*para que se mueva mas lento cuando viaja de una seccion a otra*/
+}
