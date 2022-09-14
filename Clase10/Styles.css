@@ -40,7 +40,7 @@ div.container {
 section {
     height: 650px;
     border: 1px solid blue;
-    margin: 10px;
+    /*margin: 10px;*/
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -60,16 +60,71 @@ main section:last-child {
 main section:nth-child(2){
     background-color: yellow;
 }*/
-section:nth-child(odd){ /*odd significa par*/
+section:nth-child(odd) { /*odd significa par*/
    background-color: yellow;
 }
-section:nth-child(even){ /*odd significa par*/
+section:nth-child(even) { /*odd significa par*/
     background-color: blue;
  }
 
-section :first-child{
+section :first-child {
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);/*color copiado de web gradients*/
 }
 html {
     scroll-behavior: smooth; /*para que se mueva mas lento cuando viaja de una seccion a otra*/
+}
+.menu-container {
+    background-color: #a18cd1;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.menu-container ul li {
+    display: inline-block;
+    height: 20px;
+}
+.menu-container a {
+    display: inline-block;
+    text-decoration: none;
+}
+.menu-container a:hover {/* Es para que se agrande la letra cuando el mouse pasa por arriba*/
+    font-size: 1.2em;
+    color: white;
+}
+.header img {
+    width: 10%;
+    display: block;
+}
+
+@media screen and (max-width:1000px) {
+    section{
+        flex-direction: column;
+    }
+    section img {
+        width: 35%;
+    }
+    .content-text {
+        text-align: center;
+    }
+}
+.content-text a {
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 20px;
+    line-height: 35px;
+    background: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.content-text a:hover {
+    border: 1px solid blue;
 }
